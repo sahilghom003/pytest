@@ -6,7 +6,7 @@ command = "df"
 # server's information
 
 host = "192.168.29.81"
-username = "root"
+username = "gslab"
 password = "gslab@2022"
 
 client = paramiko.client.SSHClient()
