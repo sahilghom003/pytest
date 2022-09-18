@@ -1,0 +1,5 @@
+('current virtual memory usage in % is:', 60.9, datetime.datetime(2022, 9, 17, 0, 17, 43, 816211))
+('current CPU usage in % is:', 5.4, datetime.datetime(2022, 9, 17, 0, 17, 43, 817295))
+('current virtual memory usage in % is:', 62.0, datetime.datetime(2022, 9, 18, 1, 10, 47, 992124))
+('current virtual memory usage in % is:', 61.7, datetime.datetime(2022, 9, 18, 1, 12, 1, 449024))
+('current virtual memory usage in % is:', 61.6, datetime.datetime(2022, 9, 18, 1, 12, 13, 322446))
