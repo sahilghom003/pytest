@@ -22,7 +22,7 @@ def test_virtual_memory():
             f.close()
 
 
-cpu_usage = psutil.cpu_percent()
+cpu_usage = psutil.cpu_percent(1)
 print(cpu_usage)
 
 
