@@ -20,16 +20,8 @@ def test_virtual_memory():
             f.write("\n")
             f.write(str(details))
             f.close()
-    # else:
-    #     with open("pass_result.txt", "w") as f:
-    #         insufficient = "CPU usage is above 90%, testcase failed"
-    #         time = datetime.datetime.now()
-    #         details = insufficient, memory, time
-    #         f.write(str(details))
-    #         f.close()
 
 
-#
 cpu_usage = psutil.cpu_percent()
 print(cpu_usage)
 
