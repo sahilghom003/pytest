@@ -3,9 +3,9 @@ import psutil
 import datetime
 import math
 
-memory = memory = psutil.virtual_memory()[2]
-print(memory)
 
+memory = psutil.virtual_memory()[2]
+print(memory)
 
 @pytest.mark.cli
 def test_virtual_memory():
@@ -39,3 +39,5 @@ def test_cpu_usage():
             f.write("\n")
             f.write(str(details))
             f.close()
+
+
