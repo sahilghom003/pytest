@@ -26,3 +26,6 @@
 ('current CPU usage in % is:', 15.0, datetime.datetime(2022, 9, 19, 15, 1, 9, 905138))
 ('current virtual memory usage in % is:', 68.8, datetime.datetime(2022, 9, 19, 15, 1, 22, 926853))
 ('current CPU usage in % is:', 13.9, datetime.datetime(2022, 9, 19, 15, 1, 22, 931896))
+('current virtual memory usage in % is:', 69.4, datetime.datetime(2022, 9, 19, 15, 51, 12, 896877))
+('current CPU usage in % is:', 17.1, datetime.datetime(2022, 9, 19, 15, 51, 12, 902705))
+('current CPU usage in % is:', 20.5, datetime.datetime(2022, 9, 19, 15, 55, 7, 589688))

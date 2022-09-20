@@ -7,7 +7,7 @@ command = "df"
 
 host = "192.168.29.81"
 username = "gslab"
-password = "gslab@2022"
+password = "gslab2022"
 
 client = paramiko.client.SSHClient()
 client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
