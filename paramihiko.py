@@ -2,13 +2,9 @@ import paramiko
 import pytest
 import psutil
 import datetime
+import subprocess
 
 command = "ls"
-
-
-# Update the next three lines with your
-# server's information
-
 
 host = "192.168.29.81"
 username = "gslab"
@@ -17,7 +13,8 @@ password = "gslab2022"
 client = paramiko.client.SSHClient()
 client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 client.connect(host, username=username, password=password)
-_stdin, _stdout,_stderr = client.exec_command(command)
+memory = psutil.virtual_memory()[2]
+cpu_usage = psutil.cpu_percent(1)
+_stdin, _stdout, _stderr = client.exec_command(command)
 print(_stdout.read().decode())
 client.close()
-

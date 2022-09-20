@@ -2,10 +2,7 @@ import pytest
 import psutil
 import datetime
 import math
-
-
-memory = psutil.virtual_memory()[2]
-print(memory)
+from paramihiko import memory, cpu_usage
 
 @pytest.mark.cli
 def test_virtual_memory():
@@ -22,10 +19,6 @@ def test_virtual_memory():
             f.close()
 
 
-cpu_usage = psutil.cpu_percent(1)
-print(cpu_usage)
-
-
 @pytest.mark.cli
 def test_cpu_usage():
     # here taken cpu usage % is 90 for 4 secs
@@ -39,5 +32,3 @@ def test_cpu_usage():
             f.write("\n")
             f.write(str(details))
             f.close()
-
-
