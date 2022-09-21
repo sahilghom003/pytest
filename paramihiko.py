@@ -2,11 +2,10 @@ import paramiko
 import pytest
 import psutil
 import datetime
-import subprocess
 
 command = "ls"
 
-host = "192.168.29.81"
+host = "192.168.1.2"
 username = "gslab"
 password = "gslab2022"
 

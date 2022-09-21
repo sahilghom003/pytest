@@ -4,6 +4,8 @@ import datetime
 import math
 from paramihiko import memory, cpu_usage
 
+
+
 @pytest.mark.cli
 def test_virtual_memory():
     # here taken virtual memory % is 90
